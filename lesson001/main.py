@@ -137,15 +137,15 @@ print(type(a))
 #     for j in i:
 #         print(j)
 
-# a = 'qwerty'
+a = 'qwerty'
 
 # for i in a:
 #     print(i)
 
 # print()
 
-# for i in range(len(a)):
-#     print(a[i])
+for i in range(len(a)):
+    print(a[i])
 
 # line = ""
 # for i in range(5):
@@ -161,8 +161,8 @@ print(type(a))
 # print(text.upper())
 # print(text.replace('ещё', 'ЕЩЁ'))
 
-text = "Сьешь ещё этих мягких французских булок"
-print(text[0])
+# text = "Сьешь ещё этих мягких французских булок"
+# print(text[0])
 # print(text[1])
 # print(text[len(text) - 1])
 # print(text[-5])
