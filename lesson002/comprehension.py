@@ -19,3 +19,6 @@ list_5 = [(i, i ** 2) for i in range(1, 11) if i % 2 == 0]
 print(list_5)
 list_6 = [i * 2 for i in range(10) if i % 2 == 0]
 print(list_6)
+
+list_7 = [input() for i in range(5)]
+print(list_7)
