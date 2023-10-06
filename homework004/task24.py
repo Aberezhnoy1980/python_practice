@@ -26,4 +26,10 @@ else:
             current_harvested = garden_bed[i - 1] + garden_bed[i] + garden_bed[i + 1]
         if current_harvested > max_harvested:
             max_harvested = current_harvested
-print(max_harvested)
+# print(max_harvested)
+
+
+#  alt
+
+print(max(garden_bed[i - 2] + garden_bed[i - 1] + garden_bed[i] for i in range(len(garden_bed))))
+
