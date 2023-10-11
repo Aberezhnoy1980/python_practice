@@ -1,0 +1,2 @@
+1;Klaus;Valc;12.01.1987;Tallin
+2;Alex;Alexovich;29.12.1980;Krasnodar

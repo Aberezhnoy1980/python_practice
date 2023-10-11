@@ -1,0 +1,2 @@
+1;Ivan;Ivanov;12.03.1995;Moscow
+2;Ivan;Sidorov;30.10.1958;Tula

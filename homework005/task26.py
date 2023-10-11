@@ -9,3 +9,10 @@ def pow_rec(a, b):
 
 print(pow_rec(abs(int(input('Enter base number: '))), abs(int(input('Enter a power: ')))))
 
+# pow_rec(5, 3) -> pow_rec(5, 2) * 5 = 1 * 5 * 5 * 5 = 125
+#                       |
+#                  pow_rec(5, 1) * 5 = 1 * 5 * 5
+#                       |
+#                  pow_rec(5, 0) * 5 = 1 * 5
+#                       |
+#                       1
